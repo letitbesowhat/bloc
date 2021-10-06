@@ -8,7 +8,7 @@ class SignUpState extends Equatable {
     this.password = const Password.pure(),
     this.confirmedPassword = const ConfirmedPassword.pure(),
     this.status = FormzStatus.pure,
-    this.errorMessage = '',
+    this.errorMessage,
   });
 
   final Email email;
